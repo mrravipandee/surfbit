@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Montserrat, Space_Grotesk } from "next/font/google";
 import "./globals.css";
+import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
 
 const montserrat = Montserrat({
   variable: "--font-primary",
@@ -81,7 +83,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${montserrat.variable} ${spaceGrotesk.variable}`}>
+        <Navigation />
         {children}
+        <Footer />
       </body>
     </html>
   );
