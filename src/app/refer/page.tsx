@@ -189,11 +189,11 @@ export default function ReferPage() {
                         <div className="bg-white p-6 rounded-lg shadow-sm">
                             <h3 className="text-lg font-medium text-gray-900 mb-2">Is there a referral limit?</h3>
                             <p className="text-gray-600">
-                                No! You can refer as many friends as you want. There's no upper limit to how much you can earn.
+                                No! You can refer as many friends as you want. There&apos;s no upper limit to how much you can earn.
                             </p>
                         </div>
                         <div className="bg-white p-6 rounded-lg shadow-sm">
-                            <h3 className="text-lg font-medium text-gray-900 mb-2">What if my friend uses someone else's link?</h3>
+                            <h3 className="text-lg font-medium text-gray-900 mb-2">What if my friend uses someone else&apos;s link?</h3>
                             <p className="text-gray-600">
                                 The first referral link clicked will be credited. Make sure your friends use your link for you to get credit.
                             </p>

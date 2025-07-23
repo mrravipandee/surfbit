@@ -101,7 +101,7 @@ export default function AboutPage() {
                             100+ Developers Strong
                         </p>
                         <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-                            We've carefully curated a network of top development talent across specialties.
+                            We&apos;ve carefully curated a network of top development talent across specialties.
                         </p>
                     </div>
 
@@ -192,7 +192,7 @@ export default function AboutPage() {
                                     <div className="min-w-0 flex-1">
                                         <h3 className="text-lg leading-6 font-medium text-gray-900">Team Formation</h3>
                                         <p className="mt-2 text-base text-gray-500">
-                                            We assemble a cross-functional team tailored to your project's technical requirements.
+                                            We assemble a cross-functional team tailored to your project&apos;s technical requirements.
                                         </p>
                                     </div>
                                 </div>

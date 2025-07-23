@@ -1,6 +1,6 @@
 "use client";
 
-import { Filter, Search, Star, IndianRupee, ChevronDown, Check, X } from 'lucide-react'
+import { Filter, Search, Star, ChevronDown, X } from 'lucide-react'
 import ProductCard from '@/components/ProductCard'
 import { products } from '@/data/projects';
 import { useState } from 'react'

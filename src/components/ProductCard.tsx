@@ -1,4 +1,5 @@
 import { Star } from 'lucide-react'
+import Image from 'next/image'
 import Link from 'next/link'
 
 interface Product {
@@ -14,7 +15,9 @@ const ProductCard = ({ product }: { product: Product }) => {
     return (
         <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
             <div className="h-48 bg-gray-100 flex items-center justify-center">
-                <img
+                <Image
+                    width={300}
+                    height={200}
                     src={product.image}
                     alt={product.name}
                     className="object-cover h-full w-full"

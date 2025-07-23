@@ -1,4 +1,5 @@
 import { ArrowRight, Zap, MessageSquare, CheckCircle } from 'lucide-react'
+import Image from 'next/image';
 import Link from 'next/link'
 
 const HeroSection = () => {
@@ -51,8 +52,10 @@ const HeroSection = () => {
           </div>
           
           <div className="relative">
-            <div className="hidden md:block relative  overflow-hidden">
-              <img
+            <div className="hidden md:block relative  overflow-hidden">  
+              <Image
+                width={600}
+                height={400}
                 src="/hero_surfbit.svg"
                 alt="SurfBit Digital Solutions"
                 className="w-full h-auto object-cover"
